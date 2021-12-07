@@ -1,14 +1,8 @@
+# FiveM Shops 🛒🛍
+> This is a shop/store script for ESX, this is different from the normal esx_shops as it is more interactive. You walk around in the store to grab stuff from the shelfs to put into your basket on L, then go to the cashier and be prompted with the choice to pay with cash or with your credit card. See video for better explanation
 
 
-[ Info ]
-
-- This is a shop/store script for ESX, this is different from the normal esx_shops as it is more interactive. You walk around in the store to grab stuff from the shelfs to put into your basket on L, then go to the cashier and be prompted with the choice to pay with cash or with your credit card. See video for better explanation
-
-[ Features ]
-
-- Customizable config file.
-
-[ Installation ]
+## Installation
 
 1. Download
 2. Put this resource into your resources
@@ -17,7 +11,7 @@
 
 - And change what you want.
 
-[ Requirements ]
+## Requirements
 
 - ESX
 - esx_menu_default
