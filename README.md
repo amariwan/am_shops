@@ -7,7 +7,7 @@
 1. Download
 2. Put this resource into your resources
 3. Run the SQL file
-4. Put `start am-shops` into your server.cfg
+4. Put `start am_shops` into your server.cfg
 
 - And change what you want.
 
