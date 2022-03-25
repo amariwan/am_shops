@@ -112,7 +112,7 @@ end
 --[[ Deletes the peds when the resource stops ]]--
 AddEventHandler('onResourceStop', function(resourceName)
     if resourceName == GetCurrentResourceName() then
-        TriggerServerEvent('esx:clientLog', "[am-shops]: Deleting peds...")
+        TriggerServerEvent('esx:clientLog', "[am_shops]: Deleting peds...")
         DeleteCashier()
     end
 end)
