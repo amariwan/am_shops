@@ -4,8 +4,8 @@ TriggerEvent("esx:getSharedObject", function(obj)
     ESX = obj
 end)
 
-RegisterNetEvent('am-shops:Cashier')
-AddEventHandler('am-shops:Cashier', function(price, basket, account)
+RegisterNetEvent('am_shops:Cashier')
+AddEventHandler('am_shops:Cashier', function(price, basket, account)
     local src = source
     local xPlayer = ESX.GetPlayerFromId(src)
 
@@ -23,7 +23,7 @@ AddEventHandler('am-shops:Cashier', function(price, basket, account)
 
 end)
 
-ESX.RegisterServerCallback('am-shops:CheckMoney', function(source, cb, price, account)
+ESX.RegisterServerCallback('am_shops:CheckMoney', function(source, cb, price, account)
     local src = source
     local xPlayer = ESX.GetPlayerFromId(src)
     local money
